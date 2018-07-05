@@ -9,6 +9,10 @@
  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+ <!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
   <style>
    
       body{
@@ -97,6 +101,9 @@ marquee{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     
 }
+#wowslider-container1 .ws_cube_side {
+	background:#f4511e;
+}
 
 
       </style>
@@ -126,39 +133,35 @@ marquee{
   </div>
 </nav>
 
-<div class="container-fluid">
-<div class=" w3-display-container w3-margin-top" >
-   
-    <div>           
-  <img class="mySlides" src="14.jpg"  style="width:100%; height:600px;">
-  <img class="mySlides" src="16.jpg" style="width:100%; height:600px;">
-  <img class="mySlides" src="13.jpg" style="width:100%; height:600px;">
-  <img class="mySlides" src="4.jpg" style="width:100%; height:600px;">
-     
-  <button class="w3-button w3-deep-orange w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
-  <button class="w3-button w3-deep-orange w3-display-right" onclick="plusDivs(1)">&#10095;</button>
-</div>
-</div>
-</div>
-<script>
-var slideIndex = 1;
-showDivs(slideIndex);
+<!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+        <div class="ws_images"><ul>
+                <li><img src="data1/images/16.jpg" alt="Ücretsiz Servis Lekesiz Temizlik..." title="" id="wows1_0" style="text-align: right;"/>Ücretsiz Servis Lekesiz Temizlik</li>
+                <li><img src="data1/images/14.jpg" alt="" title="Sağlığınızı, Sevdiklerinizin sağlığını vee
+                    Kalitenin hesaplılığını önemsiyorsanız
+                    DOĞRU ADRESTESİNİZ " id="wows1_1"/>
+        </li>
+                <li><img src="data1/images/13.jpg" alt="image slider" title="Söke,
+                    Kuşadası,
+                    Davutlar,
+                    Güzelcamlı, 
+                    Ortaklar ve Germencik ' e hizmetlerimiz vardır" id="wows1_2"/></a></li>
+                <li><img src="data1/images/4.jpg" alt="Hizmetlerimiz Şehit Ailelerine ÜCRETSİZDİR! " title="Hizmetlerimiz Şehit Ailelerine ÜCRETSİZDİR! " id="wows1_3"/>
+        </li>
+            </ul></div>
+            <div class="ws_bullets"><div>
+                <a href="#wows1_0" title="Ücretsiz Servis Lekesiz Temizlik..."><span><img src="data1/tooltips/16.jpg" alt="Ücretsiz Servis Lekesiz Temizlik..."/>1</span></a>
+                <a href="#wows1_1" title=""><span><img src="data1/tooltips/14.jpg" alt=""/>2</span></a>
+                <a href="#wows1_2" title=""><span><img src="data1/tooltips/13.jpg" alt=""/>3</span></a>
+                <a href="#wows1_3" title="Hizmetlerimiz Şehit Ailelerine ÜCRETSİZDİR! "><span><img src="data1/tooltips/4.jpg" alt="Hizmetlerimiz Şehit Ailelerine ÜCRETSİZDİR! "/>4</span></a>
+            </div></div><div class="ws_script" style="position:absolute;left:-99%"> by WOWSlider.com v8.8</div>
+        <div class="ws_shadow"></div>
+        </div>	
+        <script type="text/javascript" src="engine1/wowslider.js"></script>
+        <script type="text/javascript" src="engine1/script.js"></script>
+        <!-- End WOWSlider.com BODY section -->
 
-function plusDivs(n) {
-  showDivs(slideIndex += n);
-}
 
-function showDivs(n) {
-  var i;
-  var x = document.getElementsByClassName("mySlides");
-  if (n > x.length) {slideIndex = 1}    
-  if (n < 1) {slideIndex = x.length}
-  for (i = 0; i < x.length; i++) {
-     x[i].style.display = "none";  
-  }
-  x[slideIndex-1].style.display = "block";  
-}
-</script>
 <br><br><br>
 
 <div class="container-fluid">
