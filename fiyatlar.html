@@ -107,6 +107,45 @@ bottom: 10px;
 background-color:#f4511e;
 z-index: 1;
 }
+.yazi{
+    font-family: "Vibur", cursive;
+  font-size: 1rem;
+ 
+}
+/*-- Sign Styles --*/
+.sign {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.sign__word {
+  font-size: 5.6rem;
+  text-align: center;
+  line-height: 1;
+  color:#fff;
+  -webkit-animation: neon .08s ease-in-out infinite alternate;
+          animation: neon .08s ease-in-out infinite alternate;
+}
+
+/*-- Animation Keyframes --*/
+@-webkit-keyframes neon {
+  from {
+    text-shadow: 0 0 6px rgba(245, 248, 248, 0.92), 0 0 30px rgba(245, 248, 248, 0.92), 0 0 12px rgba(249, 78, 16, 1), 0 0 21px rgba(249, 78, 16, 0.85), 0 0 34px rgba(249, 78, 16, 0.9), 0 0 54px rgba(249, 78, 16, 0.85);
+  }
+  to {
+    text-shadow: 0 0 6px rgba(245, 248, 248, 0.92), 0 0 30px rgba(245, 248, 248, 0.92), 0 0 12px rgba(249, 78, 16, 0.86), 0 0 22px rgba(249, 78, 16, 0.81), 0 0 38px rgba(249, 78, 16, 0.88), 0 0 60px #f25218;
+  }
+}
+@keyframes neon {
+  from {
+    text-shadow: 0 0 6px rgba(245, 248, 248, 0.92), 0 0 30px rgba(245, 248, 248, 0.92), 0 0 12px rgba(249, 78, 16, 1), 0 0 21px rgba(249, 78, 16, 0.85), 0 0 34px rgba(249, 78, 16, 0.9), 0 0 54px rgba(249, 78, 16, 0.85);
+  }
+  to {
+    text-shadow: 0 0 6px rgba(245, 248, 248, 0.92), 0 0 30px rgba(245, 248, 248, 0.92), 0 0 12px rgba(249, 78, 16, 0.86), 0 0 22px rgba(249, 78, 16, 0.81), 0 0 38px rgba(249, 78, 16, 0.88), 0 0 60px #f25218;
+  }
+}
 
 </style>
 </head>
@@ -129,13 +168,15 @@ z-index: 1;
         <li class="active"><a href="fiyatlar.html">Fiyatlar</a></li>
          <li><a href="galeri.html">Galeri</a></li>
         <li><a href="iletisim.html">İletişim</a></li>
-		<li><a href="www.facebook.com/omer.atak.90"><i class="fa fa-facebook-square" style="font-size:24px; color:black;"></i></a></li>
+		<li><a href="www.facebook.com/omer.atak.90"><i class="fa fa-facebook-square" style="font-size:24px; color:#2b4170;"></i></a></li>
         
       </ul>
  
     </div>
   </div>
 </nav>
+
+
 <div class="container" >
     <div class ="row" >
          <div class="col-md-3">
@@ -175,7 +216,17 @@ z-index: 1;
 
 <br>
 <br>
-<br>
+
+<div class="yazi">
+        <div class="sign">
+                <span class="sign__word">Söke, Kuşadası,
+                        </span> 
+                <span class="sign__word"> Davutlar,
+                        Güzelçamlı, </span> 
+                <span class="sign__word"> Ortaklar ve Germencik'e hizmetlerimiz vardır..</span> 
+            </div></div>
+            <br><br>
+
 
 <div class="container-fluid">
     <div class ="row" >
@@ -313,9 +364,9 @@ jQuery(document).ready(function($){
                              <p><i class="fa fa-envelope"></i><strong> Email:</strong>teknomaxsoke@gmail.com</a></p>
                          </li>
                          <li>
-                                <h3>Bizi Takip Edebilirsiniz</h3>
-                                <a href="www.facebook.com/omer.atak.90"><i class="fa fa-facebook-square" style="font-size:24px; color:black;"></i></a>
-                                       
+                                <h3>Bizi Takip Edebilirsiniz
+                                <a href="www.facebook.com/omer.atak.90"><i class="fa fa-facebook-square" style="font-size:24px; color:#2b4170;"></i></a>
+                            </h3>       
                          </li>
                      </ul>
                      
