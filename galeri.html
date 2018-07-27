@@ -68,7 +68,45 @@ footer {
          font-family:Cambria, Cochin, Georgia, Times, Times New Roman, serif;
       
   }
-  
+  .yazi{
+    font-family: "Vibur", cursive;
+  font-size: 1rem;
+ 
+}
+/*-- Sign Styles --*/
+.sign {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.sign__word {
+  font-size: 5.6rem;
+  text-align: center;
+  line-height: 1;
+  color:#fff;
+  -webkit-animation: neon .08s ease-in-out infinite alternate;
+          animation: neon .08s ease-in-out infinite alternate;
+}
+
+/*-- Animation Keyframes --*/
+@-webkit-keyframes neon {
+  from {
+    text-shadow: 0 0 6px rgba(245, 248, 248, 0.92), 0 0 30px rgba(245, 248, 248, 0.92), 0 0 12px rgba(249, 78, 16, 1), 0 0 21px rgba(249, 78, 16, 0.85), 0 0 34px rgba(249, 78, 16, 0.9), 0 0 54px rgba(249, 78, 16, 0.85);
+  }
+  to {
+    text-shadow: 0 0 6px rgba(245, 248, 248, 0.92), 0 0 30px rgba(245, 248, 248, 0.92), 0 0 12px rgba(249, 78, 16, 0.86), 0 0 22px rgba(249, 78, 16, 0.81), 0 0 38px rgba(249, 78, 16, 0.88), 0 0 60px #f25218;
+  }
+}
+@keyframes neon {
+  from {
+    text-shadow: 0 0 6px rgba(245, 248, 248, 0.92), 0 0 30px rgba(245, 248, 248, 0.92), 0 0 12px rgba(249, 78, 16, 1), 0 0 21px rgba(249, 78, 16, 0.85), 0 0 34px rgba(249, 78, 16, 0.9), 0 0 54px rgba(249, 78, 16, 0.85);
+  }
+  to {
+    text-shadow: 0 0 6px rgba(245, 248, 248, 0.92), 0 0 30px rgba(245, 248, 248, 0.92), 0 0 12px rgba(249, 78, 16, 0.86), 0 0 22px rgba(249, 78, 16, 0.81), 0 0 38px rgba(249, 78, 16, 0.88), 0 0 60px #f25218;
+  }
+}
 </style>
 
 </head>
@@ -98,7 +136,12 @@ footer {
     </div>
   </div>
 </nav>
-
+<br>
+<div class="yazi">
+    <div class="sign">
+            <span class="sign__word">Tekno Max ile Ücretsiz Servis Lekesiz Temizlik
+                    </span> 
+                    <br>
 
 <!-- Start WOWSlider.com BODY section -->
 <div id="wowslider-container1">
